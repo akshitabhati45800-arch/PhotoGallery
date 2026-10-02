@@ -1,0 +1,90 @@
+.ProfilePanel {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.profileLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  color: #94a3b8;
+  font-size: 1.1rem;
+}
+
+.welcomeBanner {
+  margin-bottom: 35px;
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 20px;
+}
+
+.welcomeBanner h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.welcomeBanner p {
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+.profileGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.profileCard {
+ background-color: #0b1120;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.profileCard h2 {
+  color: #f1f5f9;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #8598b6;
+  padding-bottom: 8px;
+  display: inline-block;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cardContent p {
+  color: #cbd5e1;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.cardContent strong {
+  color: #94a3b8;
+  font-weight: 500;
+  margin-right: 8px;
+  display: inline-block;
+  width: 90px;
+}
+
+.role {
+  background-color: rgba(59, 130, 246, 0.15);
+  color: #74839c;
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.noData {
+  color: #64748b;
+  font-style: italic;
+}
+
