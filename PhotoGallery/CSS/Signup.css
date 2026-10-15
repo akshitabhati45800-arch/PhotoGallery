@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+    .container{
+    min-height: 100vh;
+    background-image: url("backg.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;      /* Best for full-screen backgrounds */
+    background-position: center; /* Centers the image */
+    
+}
+ .signup{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+ background: rgba(255, 255, 255, 0.15);
+ backdrop-filter: blur(20px);
+ -webkit-backdrop-filter: blur(20px);
+ border: 1px solid rgba(255,255,255,0.2);
+ box-shadow: 0 10px 35px rgba(0,0,0,0.25); 
+ border-radius: 30px;
+  width:45%;
+  position:fixed;
+  margin:20px;
+  right: 55px;
+  top: 40px;
+  bottom: 40px;
+
+ }
+
+.signup input{
+   padding: 10px;
+   font-size: 20px;
+  min-width: 20em;
+   outline: none;
+   margin-right: 60px;
+   margin-left: 40px;
+   border: none;
+  background-color: rgb(10, 35, 70);
+  border-radius: 7px;
+    color:hwb(208 94% 20%);
+    margin-bottom: 16px;
+  
+}
+
+ .signup input:focus{
+     outline: none;
+ }
+ 
+ .signup button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(10, 35, 70);
+   color:hwb(208 94% 20%);
+  font-weight: 600;
+  height: 50px;
+  cursor: pointer;
+ margin-right: 60px;
+   margin-left: 40px;
+  font-size: 14px;
+ margin-top: 35px;
+}
+  .signup input:hover {
+  background-color: rgb(40, 31, 49);
+  transform: translateY(-1px);
+}
+
+ .signup button:hover {
+  background-color: rgb(40, 31, 49);
+  transform: translateY(-1px);
+}
+
+.signup h2{
+    font-size: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    margin-top:30px;
+    text-align: center;
+     color:hwb(208 94% 20%);
+}
+.signup a{
+    margin-top:24px;
+    text-decoration:none;
+    color:rgba(235,245,255,.9);
+    font-size:15px;
+    font-weight:500;
+    transition:.25s;
+}
+
+.signup a:hover{
+    color:#9d9ae4;
+   transform: translateY(-1px);
+}
+

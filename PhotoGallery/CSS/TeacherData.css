@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.Teacher_admin{
+    position:relative;
+    min-height:100vh;
+  background-color: #0b1120;
+    color:#fff;
+    
+    font-family:Arial,Helvetica,sans-serif;
+    isolation:isolate;
+}
+
+.Teacher_admin h1{
+    font-size:32px;
+    font-weight:600;
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.Teacher_admin>button{
+    position:absolute;
+    top:5px;
+    right:30px;
+    padding:10px 20px;
+    background:#687da5;
+    color:#fff;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:14px;
+    transition:.3s;
+    z-index:1000;
+}
+
+.Teacher_admin>button:hover{
+    background:#5d7094;
+}
+
+
+
+.Teacher_admin .addNew{
+    position:absolute;
+    top:80px;
+    right:30px;
+    width:320px;
+    background:#181818;
+    border:1px solid #2c2c2c;
+    border-radius:14px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    box-shadow:0 20px 40px rgba(0,0,0,.6);
+    z-index:9999;
+}
+
+.Teacher_admin .addNew input{
+    width:100%;
+    padding:11px 14px;
+   background-color: #0b1120;
+    color:#fff;
+    border:1px solid #8d8686;
+    border-radius:8px;
+    outline:none;
+    font-size:14px;
+}
+
+.Teacher_admin .addNew input:focus{
+    border-color:#5a6f97;
+}
+
+.Teacher_admin .addNew button{
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:14px;
+    transition:.3s;
+}
+
+.Teacher_admin .addNew button:first-of-type{
+    background:#4f638a;
+    color:#fff;
+}
+
+.Teacher_admin .addNew button:first-of-type:hover{
+    background:#44577e;
+}
+
+.Teacher_admin .addNew button:last-of-type{
+    background:#2d2d2d;
+    color:#fff;
+}
+
+.Teacher_admin .addNew button:last-of-type:hover{
+    background:#3b3b3b;
+}
+
+
+
+.Teacher_admin table{
+    width:100%;
+    border-collapse:collapse;
+   background-color: #0f1830;
+    border-radius:14px;
+    overflow:hidden;
+    position:relative;
+    z-index:1;
+}
+
+.Teacher_admin thead{
+  background-color: #0f1830;
+}
+
+.Teacher_admin th{
+    padding:18px;
+    text-align:left;
+    font-size:15px;
+    font-weight:600;
+    color:#fff;
+     border:1px solid #8d8686;
+}
+
+.Teacher_admin td{
+    padding:18px;
+    color:#d7d7d7;
+    border:1px solid #8d8686;
+}
+
+
+.Teacher_admin td:first-child{
+    font-weight:600;
+    color:#fff;
+}
+
+.Teacher_admin td button{
+    background:#940f0f;
+    color:#fff;
+    border:none;
+    padding:8px 16px;
+    border-radius:6px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.Teacher_admin td button:hover{
+   background:#7c1515;
+}
+
